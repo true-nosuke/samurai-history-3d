@@ -1,2 +1,9 @@
-# samurai-history-3d
-Interactive 3D overview of the rise of the samurai and the Genpei War.
+# 武士の時代へ — 日本史 3D ATLAS
+
+教材写真をもとに、前九年合戦から源平合戦、鎌倉幕府成立までの流れを俯瞰する学習用デモです。地形・軍勢・矢印・カメラ移動は模式的な表現であり、実際の地形や進軍経路、兵力を厳密に再現したものではありません。
+
+`index.html` をスマートフォンまたはパソコンのWebGL対応ブラウザで開いてください。3D描画ライブラリを CDN から読み込むため、インターネット接続が必要です。タイムライン、前後ボタン、自動再生で場面を選べます。地図のドラッグで視点を回せます。画面の動きを減らす設定にも対応しています。
+
+GitHub Pagesを使う場合は、リポジトリの Settings → Pages で `main` ブランチの `/ (root)` を公開元に設定してください。
+
+3D描画には three.js r160 (MIT License) を使用しています。ライセンスは `THREE-LICENSE.txt` を参照してください。
